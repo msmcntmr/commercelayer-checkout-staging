@@ -61,7 +61,8 @@ export default {
           .create('card', {
             styles: this.styleObj,
             hasHolderName: true,
-            holderNameRequired: true
+            holderNameRequired: true,
+            positionHolderNameOnTop: true
           })
           .mount('#adyen-card')
 
