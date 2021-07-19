@@ -59,7 +59,12 @@ export default {
 
         checkout
           .create('card', {
-            styles: this.styleObj
+            styles: this.styleObj,
+            hasHolderName: true,
+            holderNameRequired: true,
+            data: {
+              holderName: 'S. Hopper'
+            }
           })
           .mount('#adyen-card')
 
