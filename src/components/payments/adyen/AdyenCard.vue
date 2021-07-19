@@ -60,7 +60,6 @@ export default {
         checkout
           .create('card', {
             styles: this.styleObj,
-            brands: ['mc','visa','amex'],
             hasHolderName: true,
             holderNameRequired: true,
             positionHolderNameOnTop: true
